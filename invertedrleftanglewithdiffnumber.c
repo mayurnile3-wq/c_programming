@@ -2,19 +2,15 @@
 int main()
 {
 	int r,c;
+	int num=1;
 	for(r=5;r>0;r--)
 	{
 		for(c=1;c<=r;c++)
 		{
-			if(r%2==0)
-			{
-			   printf("^");
-		    }
-		    else
-		    {
-		    	printf("*");
-			}
-			}
+			printf("%d",num);
+			
+		}
+		num++;
 		printf("\n");
 	}
 	return 0;
