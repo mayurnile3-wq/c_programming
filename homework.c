@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main(
+int main()
  {
        int age = 17;
        if(age <= 13)
@@ -13,9 +13,9 @@ int main(
 return 0;
 
 }
-{
-	int a = 17;
-	if( a/5==0)
+///{
+//	int a = 17;
+//	if( a/5==0)
 //////	{
 //////		printf("the number is divive by 5");
 //////	}
@@ -27,7 +27,7 @@ return 0;
 //////	return 0;
 //////} 
 //// 
-{
+//{
 //// 	//int marks =40;
 //// 	//if(marks>=35)
 //// 	//{
